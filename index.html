@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="https://kit.fontawesome.com/28771288b4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <nav class="navbar">
@@ -33,7 +34,7 @@
 
         </div>
     </nav>
-    <div class="content">
+    <div class="content"data-aos="fade-down"  data-aos-offset="200" data-aos-duration="2000"   >
         <div class="leftside"> 
             <h1 class="heading">Russian invasion of 
             </h1> <br><span>Ukraine</span>
@@ -42,7 +43,7 @@
             
         </div>
     </div>
-    <div class="news-container">
+    <div class="news-container"data-aos="zoom-out"  data-aos-offset="200" data-aos-duration="2000" >
         <div class="leftnews">
             <div class="paraheading">
                 <h1>Ukrainian revolution, Russian intervention in Crimea and Donbas
@@ -58,7 +59,7 @@
         </div>
         
     </div>
-    <div class="news-container reverse">
+    <div class="news-container reverse"data-aos="zoom-in"  data-aos-offset="200" data-aos-duration="2000" >
         <div class="leftnews">
             <div class="paraheading">
                 <h1>Putin's invasion announcement
@@ -75,7 +76,7 @@
     
     </div>
     
-    <div class="news-container ">
+    <div class="news-container" data-aos="fade-right"  data-aos-offset="200" data-aos-duration="2000">
         <div class="leftnews">
             <div class="paraheading">
                 <h1>Russian annexations and occupation losses
@@ -91,7 +92,7 @@
         </div>
         
     </div> 
-    <div class="news-container ">
+    <div class="news-container"  data-aos="fade-left"  data-aos-offset="200" data-aos-duration="2000">
         <div class="leftnews">
             <div class="paraheading">
                 <h1>Prisoners of war
@@ -107,7 +108,7 @@
         </div>
         
     </div> 
-    <div class="news-container reverse ">
+    <div class="news-container reverse" data-aos="flip-down"  data-aos-offset="200" data-aos-duration="2000">
         <div class="leftnews">
             <div class="paraheading">
                 <h1>Legality and declaration of war
@@ -124,7 +125,7 @@
         </div>
         
     </div> 
-    <div class="news-container ">
+    <div class="news-container " data-aos="slide-up"  data-aos-offset="200" data-aos-duration="2000">
         <div class="leftnews">
             <div class="paraheading">
                 <h1>Russia–NATO relations
@@ -142,7 +143,7 @@
         </div>
         
     </div> 
-    <footer>
+    <footer data-aos="fade"  data-aos-offset="200" data-aos-duration="1000">
         <div class="latestNews">
             <h3>Lastest News:</h3>
             <ul>
@@ -184,6 +185,10 @@
     <div class="footer">
         <p>@CopyRight Sky-News Reserved [2024]!</p>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
